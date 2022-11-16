@@ -8,13 +8,14 @@ public class Lavadora extends Electrodomestico {
 
    public Lavadora(){}
 
-   public Lavadora(int precio, int peso){
-        super(precio,peso);
+   public Lavadora(int precioBase, int peso){
+
+       super(precioBase,peso);
     }
 
-   public Lavadora (int precio, int peso, char consumoEnergetico, String color, int carga) {
-        super(precio, color, consumoEnergetico, peso);
-        this.carga=carga;
+    public Lavadora(int precioBase, String color, char consumoEnergetico, int peso, int carga) {
+        super(precioBase, color, consumoEnergetico, peso);
+        this.carga = carga;
     }
 
     public int getCarga() {

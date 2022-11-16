@@ -1,7 +1,7 @@
 // https://www.discoduroderoer.es/ejercicios-propuestos-y-resueltos-programacion-orientado-a-objetos-java/
 package Electrodomesticos;
 
-public abstract class Electrodomestico {
+public  class Electrodomestico {
     protected final static int PRECIODEF = 100;
     protected final static String COLORDEF = "blanco";
     protected final static char CONSUMOENERGETICODEF = 'F';
