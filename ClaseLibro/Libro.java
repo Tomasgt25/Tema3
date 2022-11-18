@@ -45,11 +45,10 @@ public class Libro {
 
     @Override
     public String toString() {
-        return "El libro " + titulo +
-                " con ISBN=" + this.isbn +
-                ", titulo='" + this.titulo + '\'' +
-                ", autor='" + this.autor + '\'' +
-                ", numPaginas=" + this.numPaginas +
-                '}';
+        return "El libro "  +
+                " con ISBN= " + this.isbn +
+                ", titulo= " + this.titulo + '\'' +
+                ", autor= " + this.autor + '\'' +
+                ", numPaginas= " + this.numPaginas;
     }
 }
